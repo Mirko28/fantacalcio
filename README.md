@@ -11,3 +11,7 @@ Questa repository è stata creata per velocizzare il calcolo di una giornata di 
     git clone git@github.com:Mirko28/fantacalcio.git
     
     python3 fantacalcio.py
+
+Per inserire la vostra rosa dovete modificare il file python chiamato `yourteam.py`
+
+I voti dei calciatori sono ripresi dal seguente sito: https://www.pianetafantacalcio.it/Voti-Ufficiosi-Mondiale.asp
