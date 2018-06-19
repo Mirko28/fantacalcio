@@ -10,6 +10,10 @@ Questa repository è stata creata per velocizzare il calcolo di una giornata di 
 
     git clone git@github.com:Mirko28/fantacalcio.git
     
+    virtualenv venv -p python3.6
+
+    pip install -r requirements.txt
+    
     python3 fantacalcio.py
 
 Per inserire la vostra rosa dovete modificare il file python chiamato `yourteam.py`

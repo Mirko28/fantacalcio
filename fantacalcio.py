@@ -1,11 +1,7 @@
 from lxml import html
-import requests
-import os, sys
-import string
+import requests, string
+from yourteam import squadra
 
-
-
-squadra = ['NEUER MANUEL', 'SILVA THIAGO', 'RAMOS SERGIO', 'YOUNG ASHLEY', 'EDEN HAZARD', 'DI MARIA ÁNGE', 'BENTANCUR ROD', 'ERIKSEN CHRIS', 'RONALDO CRIST', 'STERLING']
 page = requests.get('https://www.pianetafantacalcio.it/Voti-Ufficiosi-Mondiale.asp')
 tree = html.fromstring(page.content)
 giocatori = tree.xpath('//a[@class="linktabelle"]/text()')
